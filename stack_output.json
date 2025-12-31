@@ -1,0 +1,42 @@
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:ap-south-1:821913183016:stack/ml-inference-api/10f025e0-e63e-11f0-a973-02957473d245",
+            "StackName": "ml-inference-api",
+            "ChangeSetId": "arn:aws:cloudformation:ap-south-1:821913183016:changeSet/samcli-deploy1767181469/a72905fe-4b34-4337-9caf-facfc7b1a990",
+            "Description": "Serverless ML Inference API using scikit-learn on AWS Lambda",
+            "CreationTime": "2025-12-31T11:44:29.569000+00:00",
+            "LastUpdatedTime": "2025-12-31T11:44:35.238000+00:00",
+            "RollbackConfiguration": {},
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Capabilities": [
+                "CAPABILITY_IAM"
+            ],
+            "Outputs": [
+                {
+                    "OutputKey": "PredictApi",
+                    "OutputValue": "https://qxqnt0q8rf.execute-api.ap-south-1.amazonaws.com/Prod/predict",
+                    "Description": "API Gateway endpoint URL for Prod stage"
+                },
+                {
+                    "OutputKey": "MLInferenceFunction",
+                    "OutputValue": "arn:aws:lambda:ap-south-1:821913183016:function:ml-inference-api-MLInferenceFunction-Pb70u21DiUAP",
+                    "Description": "ML Inference Lambda Function ARN"
+                }
+            ],
+            "Tags": [],
+            "EnableTerminationProtection": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "CREATE_STACK",
+                    "OperationId": "f56424d2-6796-4d65-8929-5d46b71b5cfb"
+                }
+            ]
+        }
+    ]
+}

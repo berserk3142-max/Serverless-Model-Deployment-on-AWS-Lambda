@@ -23,6 +23,11 @@ Resources:
           Properties:
             Path: /predict
             Method: post
+        PredictAPIGet:
+          Type: Api
+          Properties:
+            Path: /predict
+            Method: get
 
 Outputs:
   PredictApi:
